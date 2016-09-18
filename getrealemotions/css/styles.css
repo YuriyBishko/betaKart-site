@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+    background: #000;
+    font-family:calibri;
+}
+
+.logo {
+    display: block;
+  text-indent: -9999px;
+  width: 100px;
+  height: 82px;
+  background: url(../logo.svg);
+  background-size: 100px 82px;
+  margin: auto auto 20px;
+}
+
+.box {
+text-align:center;
+margin-top:100px;
+font-weight:bold;
+letter-spacing:2px;
+color:White;
+background: rgba(0,0,0,0.3);
+padding: 20px 50px 50px 50px;
+}
+
+.title {
+text-transform:uppercase;
+font-size:40px;
+margin-bottom:20px;
+}
+
+.subtitle {
+font-size:20px;
+}
+
+video { 
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background-size: cover;
+  transition: 1s opacity;
+}
+.stopfade { 
+   opacity: .5;
+}
+
+#polina { 
+ margin-bottom: 0px;
+}
+
+#polina button, input, .btn { 
+  display: inline-block;
+  padding: .4rem .9rem;
+  border: none; 
+  margin: 1rem auto; 
+  font-size: 1.0rem;
+  background: rgba(255,255,255,0.23);
+  color: #fff;
+  border-radius: 3px; 
+  cursor: pointer;
+  transition: .3s background;
+}
+
+#polina button:hover { 
+   background: rgba(0,0,0,0.5);
+}
+
+form {
+  margin-bottom: 0px;
+}
+
+.btn{
+  position: relative;
+  top: -7px;
+}

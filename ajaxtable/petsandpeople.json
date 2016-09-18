@@ -1,0 +1,6 @@
+{
+	"tableHeading"     : "Table with Pet and People Names!",
+	"tableCellsHead"   : ["Pos", "#", "Driver", "Time", "Diff", "Weapon"],
+ 	"tableCellsPeople" : ["1", "7", "Yuriy Bishko", "1.33.4", "",""],
+	"tableCellsPeople" : ["1", "7", "Yuriy Bishko", "1.33.4", "",""]
+}

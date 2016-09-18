@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<link href="css/styles.css" rel="stylesheet">
+	</head>
+<body>
+	<video  autoplay loop poster="stop.jpg" id="bgvid">
+    <source src="betaKart4.mp4" type="video/mp4" />
+	</video>
+<!-- Video Tag End -->
+	<div class="box">
+		<span class="logo"></span>
+			<div class="title">SUBSCRIBE  
+		     		 <button class="btn" type="submit" class="subscribe-submit" onclick="location.href='http://goo.gl/forms/daKxQjWBxs'">GO</button>
+	    	</div>
+			<div class="subtitle">STAY TUNED, GET REAL EMOTIONS SOON...</div>
+			<div id="polina">
+				<button>Pause</button>
+			</div>
+	</div>
+
+	<script src="js/jquery.videoBG.js" type="text/javascript"></script>
+	<script>
+	var video=document.getElementById("bgvid"),pauseButton=document.querySelector("#polina button");
+		function vidFade(){
+			video.classList.add("stopfade");
+		}
+		video.addEventListener('ended',function() {
+			video.pause();
+			vidFade();
+		},false);
+		pauseButton.addEventListener("click",function(){
+			video.classList.toggle("stopfade");
+			if(video.paused){
+				video.play();
+				pauseButton.innerHTML="Pause";
+			}
+			else{
+				video.pause();
+				pauseButton.innerHTML="Paused";
+			}
+		},false);
+		video.addEventListener('touchstart',function(e){
+			e.preventDefault();
+			video.play();
+		});
+
+
+	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

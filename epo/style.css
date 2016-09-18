@@ -1,0 +1,307 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #d43535;
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+body {
+    width: 100%;
+	font-size: 12pt;
+	line-height: 1.75em;
+	font-family: Arial, sans-serif;
+	background: #e5a91e url('images/bg3.jpg');
+	color: #c0c1c1;
+}
+
+
+h2,h3,h4 {
+	margin-bottom: 1em;    
+	font-family: Arvo, 'Roboto Slab', serif;
+	color: #ffffff;
+}
+
+img.left {
+	float: left;
+	margin: 5px 20px 20px 0;
+}
+
+img.top {
+	margin: 5px 0 20px 0;
+}
+
+p {
+	margin-bottom: 1.5em;
+}
+
+ul {
+	margin-bottom: 1.5em;
+}
+
+.imageList {
+	list-style: none;
+}
+
+.imageList li {
+	clear: both;
+}
+	
+/*#bg {
+	/*-background: url('images/shadow.png') top left repeat-x;
+	padding: 10px 0 50px 0;
+}*/
+
+#banner {
+	position: relative;
+    align: center;
+	padding: 20px;
+	height: 200px;
+	width: 93%;
+	margin: 20px 10px 10px 25px;
+	background: #8f4422;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 10px rgba(0,1,1,0.8);
+    
+}
+
+#box1 {
+	margin: 0px 0 25px 0;
+	overflow: hidden;
+}
+
+#box2 {
+	margin: 0px 0 25px 0;
+	overflow: hidden;
+}
+
+#content {
+	width: 75%;
+	margin: 0 0 0 18.5%;
+	padding: 30px;
+	background: #ecebfa;
+    box-shadow: 0 0 20px 7px rgba(0,1,1,0.8);
+}
+
+#copyright {
+    width: 98%;
+	margin: 40px 0 0 0;
+	text-align: center;
+	color: #707070;
+	font-size: 0.9em;
+}
+
+#copyright a {
+	color: #888888;
+}
+
+#footer {	
+    margin-left: 5%;
+	display: inline-block;
+	width: 93%;
+	background: #1f1a18;
+	color: #addbea;
+    box-shadow: 0 0 20px 10px rgba(0,1,1,0.8);
+}
+
+#footer a {
+	color: #e2f2f8;
+}
+
+#footer h2, #footer h3, #footer h4 {
+	color: #ffffff;
+}
+
+#footer ul {
+	list-style: none;
+	margin-bottom: 0;
+}
+
+#footer ul li {
+	padding: 10px 0 10px 0;
+	border-top: dashed 1px #6dbfda;
+}
+
+#footer ul li.first {
+	padding-top: 0;
+	border-top: 0;
+}
+
+#footerContent {
+	width: 66%;
+	margin: 0px 0 0 265px;
+}
+
+#footerSidebar {
+	width: 20%;
+    margin-left: 1%;
+    margin-right: 1%;
+	float: left;
+}
+
+#header {
+	position: relative;
+	padding: 30px;
+	height: 150px;
+	width: 100%;
+}
+#coleso1{
+    position: relative;
+    top:-113px;
+    left:-290px;      
+}
+
+#coleso2{
+    position: relative;
+    top:-25px;
+    left:-509px;
+    position: relative; 
+}
+
+.coleso{
+    width: 53px;
+    height: 53px;
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    z-index: 100;
+}
+@keyframes spin{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
+
+#logo {
+	position: absolute;
+    width: 660px;
+    
+	top: 0px;
+	left: 0px;
+    
+}
+
+/*#logo a {
+	text-decoration: none;
+	color: #ffffff;
+}*/
+
+/*#logo h1 {
+	font-size: 2.75em;
+	font-family: Arvo, serif;
+}*/
+
+#main {
+	position: relative;
+	padding: 0px;
+	margin: 0px 0 0 0;
+	width: 100%;
+	color: #6b6b6b;
+}
+
+#main a {
+	color: #262626;
+}
+
+#main strong {
+	color: #404040;
+}
+
+#main h2, #main h3, #main h4 {
+	color: #141414;
+}
+
+#main ul {
+	list-style: none;
+}
+
+#main ul li {
+	padding: 10px 0 10px 0;
+	border-top: dashed 1px #a9a9ab;
+}
+
+#main ul li.first {
+	padding-top: 0;
+	border-top: 0;
+}
+
+#nav {
+	position:relative;
+	/*right: 30px;*/
+    left: 40%;
+	height: 48px;
+    width: 53%;
+	top: 55px;
+	font-family: Arvo, serif;
+	font-size: 1.1em;
+}
+
+#nav ul {
+	list-style: none;
+}
+
+#nav ul li {
+    
+	float: left;
+    text-shadow: 1px 1px 2px black, 0 0 1em red;
+	margin: 0 0.5em 0 0.5em;
+	padding: 0.25em 1.1em 0.25em 1.1em;
+    background: #b78345;
+    box-shadow: 0 0 20px 4px rgba(0,1,1,0.8);
+    
+}
+
+#nav ul li.active {
+	background: #465881;
+    
+}
+
+#nav li a {    
+	text-decoration: none;
+	color: #d9dada;
+    
+}
+
+#nav ul li.active a {
+	color: #ffffff;
+}
+
+
+#sidebar {
+	width: 180px;
+	float: left;
+	padding: 30px;
+	color: #e8e9a3;
+}
+
+#sidebar a {
+	color: #a9a9ab;
+}
+
+#sidebar h2, #sidebar h3, #sidebar h4 {
+	color: #ffffff;
+}
+
+#sidebar ul {
+	list-style: none;
+}
+
+#sidebar ul li {
+	padding: 10px 0 10px 0;
+	border-top: dashed 1px #424545;
+}
+
+#sidebar ul li.first {
+	padding-top: 0;
+	border-top: 0;
+}
